@@ -1,3 +1,5 @@
+#Zadanie 1
+
 class Cat:
     def __init__(self, name, age, owner, breed):
         self.name = name
@@ -16,7 +18,7 @@ cat_01.cat_info()
 delattr(cat_01, 'name')
 getattr(cat_01, 'name', 'Niezdefiniowany')
 
-#druga część zadania
+#Zadanie 2
 
 class Cat:
     def __init__(self, name, age, owner, breed):
