@@ -16,7 +16,7 @@ cat_01.name = 'Puszek'
 cat_01.cat_info()
 
 delattr(cat_01, 'name')
-getattr(cat_01, 'name', 'Niezdefiniowany')
+print(getattr(cat_01, 'name', 'Niezdefiniowany')) # inaczej to sie wykonuje, ale nie widzisz rezultatu
 
 #Zadanie 2
 
