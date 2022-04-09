@@ -117,11 +117,8 @@ class Student(Person):
 
     def new_mark(self, new_mark):
         print("I got a new mark.")
-        self.list_of_marks = new_mark
-        # tutaj nie wiem jak dodać kolejną ocenę do aktualnego zbioru
-        # żeby wyświetłało mi się: I study on Harvard and have marks: [5, 3, 5, 4, 2].
-        # teraz pojawia mi się I study on Harvard and have marks: 2.
-        # kombimowałam też self.list_of_marks = list_of_marks + new_mark
+        self.list_of_marks.append(new_mark)
+
 
 
 student_01 = Student('Anna', 'Stewart', 21, 'Harvard', [5, 3, 5, 4])
