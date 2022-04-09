@@ -105,7 +105,7 @@ class Person:
         print(f"Hello! I'm {self.name} {self.last_name} and I'm {self.age} years old.")
 
 
-class Student:
+class Student(Person):
     def __init__(self, name, last_name, age, name_of_university, list_of_marks):
         Person.__init__(self, name, last_name, age)
         self.name_of_university = name_of_university
