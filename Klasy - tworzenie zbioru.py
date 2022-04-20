@@ -62,8 +62,6 @@ class Set:
 def main():
     zbior_01 = Set(98)
     zbior_02 = Set(70)
-    zbior_01 = Set(98)
-    zbior_02 = Set(70)
     zbior_01.dodaj_element(5)
     zbior_01.dodaj_element(4)
     zbior_01.dodaj_element(3)
