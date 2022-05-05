@@ -1,0 +1,13 @@
+import numpy as np
+
+arr = np.array([[61,59,88,74,26,28],[52,4,67,82,28,44],[79,81,78,100,73,53],[15,67,64,76,43,42]])
+print(arr)
+
+print('Suma:',np.sum(arr))
+print('Minimum:',np.min(arr))
+print('Maximum:',np.max(arr))
+print('Mediana:',np.mean(arr))
+print('Średnia względem:',np.std(arr))
+print('Kumulowana suma:',np.cumsum(arr))
+print('Iloczyn wartości:',np.prod(arr+1))
+print('Kumulowany iloczyn wartości:',np.cumprod(arr+1))
