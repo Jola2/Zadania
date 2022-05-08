@@ -1,4 +1,10 @@
 import numpy as np
+from collections import Counter
 
-arr = np.random.binomial(n=3, p=0.8, size = 7)
-print(arr)
+arr = [1,2,3,3,3,3,2]
+dictionary = Counter(arr)
+print(dictionary)
+
+
+for key in dictionary:
+    print('Prawdopodobieństwo wystąpienie',key,'wynosi',dictionary[key]/len(arr))

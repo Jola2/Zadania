@@ -8,4 +8,4 @@ c = b.reshape(4,6)
 print(c)
 d = np.array([1,2,3,4,5,6])
 print(d+c)
-# nie wiem czy powinnam zrobić c+d czy d+c
+
