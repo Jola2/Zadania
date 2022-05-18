@@ -1,4 +1,3 @@
-num_plots = 50
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -10,15 +9,12 @@ x = np.arange(51)
 labels = []
 for i in range(1, num_plots + 1):
     plt.plot(x, i * x)
-    labels.append(r'$y = %i \bullet x $' % (i))
-
-
+    labels.append(r'$y = %i \bullet x $' % i)
 plt.legend(labels, ncol=5, loc='upper right',
            bbox_to_anchor=[0.4, 0.9],
            columnspacing=1.0, labelspacing=0.0,
            handletextpad=0.0, handlelength=0.5,
            fancybox=True, shadow=True, fontsize=7)
-
 plt.show()
 
 

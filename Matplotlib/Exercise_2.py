@@ -9,4 +9,5 @@ ax.scatter(np.arange(1, 11, 1), np.random.randint(0, 20, 10), c=colormap ,s=150,
 ax.set_xticks(np.arange(0, 11, 1))
 plt.xlabel('Space 1', fontsize = 14, fontweight='bold')
 plt.ylabel('Space 2', fontsize = 14, fontweight='bold')
+plt.title('Diamonds', fontsize = 18, fontweight='bold')
 plt.show()
