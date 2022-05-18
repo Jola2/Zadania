@@ -3,10 +3,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x = np.linspace(0, 1, 20)
-import matplotlib.pyplot as plt
-import numpy as np
-
-x = np.linspace(0, 1, 20)
 y1 = x
 y2 = x ** 2
 
