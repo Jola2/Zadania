@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 
-x = np.linspace(-2 * math.pi, 2 * math.pi, 80)
+x = np.linspace(-2 * math.pi, 2 * math.pi, 800)
 y1 = np.sin(x)
 y2 = np.cos(x)
 y3 = np.tan(x)
@@ -23,13 +23,13 @@ rect.set_facecolor('#4db6ac')
 
 axis[1, 0].plot(x, y3, color='k', linestyle='dashed', label='Tangens')
 axis[1, 0].set_title(r"Wykres funkcji $\tan(\alpha$)", fontdict={'fontsize': 10})
-axis[1, 0].set_yticks([-25, 0, 25, 50])
+axis[1, 0].set_ylim(-5,5)
 rect = axis[1, 0].patch
 rect.set_facecolor('#a7ffeb')
 
 axis[1, 1].plot(x, y4, color='k', linestyle='dotted', label='Cotangens')
 axis[1, 1].set_title(r"Wykres funkcji $\cot\alpha$)", fontdict={'fontsize': 10})
-axis[1, 1].set_yticks([-1])
+axis[1, 1].set_ylim(-5,5)
 rect = axis[1, 1].patch
 rect.set_facecolor('#64b5f6')
 
