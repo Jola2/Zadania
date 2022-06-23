@@ -7,3 +7,6 @@ connection = mysql.connector.connect(host='localhost',
                                      password=password)
 
 print(connection.is_connected())
+
+
+#pip install mysql-connector-python
