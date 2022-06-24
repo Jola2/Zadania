@@ -23,15 +23,18 @@ plt.title('Maximum values of the variable Close in  1991-2022')
 plt.show()
 
 # convert monthly data to annual data
-# annual_data = df.groupby(pd.Grouper(key='Date', freq='Y')).sum()
-# print(annual_data)
+df = pd.read_csv('c:/Users/admin/Desktop/Dane_do_Pandas/wig_paliwa_m.csv',parse_dates =["Date"], index_col ='Date')
+df.reset_index(inplace=True)
+annual_data = df.groupby(pd.Grouper(key='Date', freq='Y')).sum()
+print(annual_data)
 # tutaj jeszcze muszę rozpracować dlaczego w Pycharmie występuję błąd, a w Jupyterze działa poprawnie
+# jak jeszcze raz wczytam csv to działa - tylko nie wiem czy dwukrotne wczytanie tego samego pliku jest dozwolone
 
 # Create a summary with 3 tables and save all 3 tables to a common Excel
 writer = pd.ExcelWriter('paliwa.xlsx')
 df.to_excel(writer, 'label_1')
 summary.to_excel(writer, 'label_2')
-# annual_data.to_excel(writer, 'label_3')
-# muszę naprawić błąd wcześniej z tabelą annual.data
+annual_data.to_excel(writer, 'label_3')
+
 writer.save()
 
