@@ -12,6 +12,6 @@ print(c)
 # create a vector containing consecutive natural numbers
 d = np.array([1,2,3,4,5,6])
 
-# overwrite your array by adding this vector
+# overwrite array by adding this vector
 print(d+c)
 
