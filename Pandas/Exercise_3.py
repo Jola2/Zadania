@@ -92,7 +92,7 @@ data_weekend_2015.plot()
 data_weekend_2016.plot()
 
 plt.ylabel('Temperatura', fontsize = 12)
-plt.title('Średnia temperatura w weekendy w poszczególnych miesiącach w latach 2014-2016', fontsize = 16)
+plt.title('Average temperature on weekends in individual months in 2014-2016', fontsize = 16)
 plt.show()
 
 
