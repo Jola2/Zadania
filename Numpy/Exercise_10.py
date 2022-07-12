@@ -10,4 +10,9 @@ def matrix(n):
         arr[np.arange(n-k), np.arange(n-k) + k]= k + 1
     return arr
 
-print(matrix(8))
+def main():
+    a = matrix(8)
+    print(a)
+
+if __name__ == "__main__":
+    main()
