@@ -30,7 +30,7 @@ print(annual_data)
 # tutaj jeszcze muszę rozpracować dlaczego w Pycharmie występuję błąd, a w Jupyterze działa poprawnie
 # jak jeszcze raz wczytam csv to działa - tylko nie wiem czy dwukrotne wczytanie tego samego pliku jest dozwolone
 
-# Create a summary with 3 tables and save all 3 tables to a common Excel
+# create a summary with 3 tables and save all 3 tables to a common Excel
 writer = pd.ExcelWriter('paliwa.xlsx')
 df.to_excel(writer, 'label_1')
 summary.to_excel(writer, 'label_2')
