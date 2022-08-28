@@ -1,1 +1,1 @@
-#to jest repoprojekt, które pokazuje moje drogi w nauce pYthona pod kątem analizy danych i DS.
+# Repo shows my way and the exercises that I do in the field of Data Analysis and Data Science.
