@@ -1,1 +1,2 @@
-## Repo shows my way and the exercises that I do in the field of Data Analysis and Data Science.
+# Python exercises
+This repository provides exercises and a sample of data analysis work I completed using Python and Pandas, Numpy, Matplotlib libraries.
